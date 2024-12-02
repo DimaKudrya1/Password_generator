@@ -16,7 +16,8 @@ def generate_password(length_pass=8):
         else:
             password += str(randint(0, 9))
     return password
-print(generate_password(16))
+
+#print(generate_password(16))
 
 
 
